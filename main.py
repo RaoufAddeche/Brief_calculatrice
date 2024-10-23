@@ -3,7 +3,6 @@ from division import division
 from multiplication import multiplication
 from soustraction import soustraction
 
-
 choix = 100
 while True : 
     print("#"*10, "Calculatrice", "#"*10)
