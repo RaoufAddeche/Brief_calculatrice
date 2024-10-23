@@ -1,4 +1,7 @@
-import fonctionnalites
+from addition import addition
+from division import division
+from multiplication import multiplication
+from soustraction import soustraction
 
 choix = 100
 while True : 
@@ -15,16 +18,16 @@ while True :
     b = float(input("second nombre : "))
     
     if choix == 1 : 
-        print("résultat :", fonctionnalites.addition(a,b))
+        print("résultat :", addition(a,b))
     
     elif choix == 2 : 
-        print("résultat :", fonctionnalites.soustraction(a,b))
+        print("résultat :", soustraction(a,b))
         
     elif choix == 3 : 
-        print("résultat :", fonctionnalites.division(a,b))
+        print("résultat :", division(a,b))
         
     elif choix == 4 : 
-        print("résultat :", fonctionnalites.multiplication(a,b))
+        print("résultat :", multiplication(a,b))
         
     elif choix == 5 : 
         p = input()
