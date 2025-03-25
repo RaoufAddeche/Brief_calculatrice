@@ -34,7 +34,7 @@ Le projet est structuré comme suit :
 1. Clonez le dépôt :
 
 bash
-git clone https://github.com/Malek-Boumedine/Brief_calculatrice.git
+git clone https://github.com/RaoufAddeche/Brief_calculatrice.git
 
 
 2. Accédez au répertoire du projet :
